@@ -29,10 +29,16 @@ In powershell:
 .\.venv\Scripts\activate
 ```
 
-In bash / MacOS:
+In bash
 
 ```bash
 source .venv/Scripts/activate
+```
+
+In Mac OS / Linux:
+
+```bash
+source .venv/bin/activate
 ```
 
 In CMD
@@ -41,9 +47,9 @@ In CMD
 .venv\Scripts\activate
 ```
 
-3) Verify that the file `.flaskenv` is in the top directory and that it contains the environment variable `FLASK_APP=src.app`.
+1) Verify that the file `.flaskenv` is in the top directory and that it contains the environment variable `FLASK_APP=src.app`.
 
-4) Run the app
+2) Run the app
 
 ```
 flask run
