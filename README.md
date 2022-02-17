@@ -5,7 +5,7 @@ This is a simple web-based blog that doesn't do much but introduces Flask, HTML,
 
 The blog requires MongoDB to be running without authentication enabled.
 
-Once this is running, execute the app and navigate to the endpoint (default: `http://127.0.0.1:4995/`).
+Once this is running, execute the app with `flask run` and navigate to the endpoint (default: `http://127.0.0.1:5000/`).
 
 The available endpoints are:
 
