@@ -18,7 +18,7 @@ The available endpoints are:
 - `/posts/new/<string:blog_id>`
 
 
-## HOW TO USE THIS CODE
+## How to use this code
 
 1) Create a new virtual environment: `python -m venv .venv`
 2) Activate the virtual environment:
@@ -35,21 +35,21 @@ In bash
 source .venv/Scripts/activate
 ```
 
-In Mac OS / Linux:
-
-```bash
-source .venv/bin/activate
-```
-
 In CMD
 
 ```cmd
 .venv\Scripts\activate
 ```
 
-1) Verify that the file `.flaskenv` is in the top directory and that it contains the environment variable `FLASK_APP=src.app`.
+In Mac OS / Linux:
 
-2) Run the app
+```bash
+source .venv/bin/activate
+```
+
+3) Verify that the file `.flaskenv` is in the top directory and that it contains the environment variable `FLASK_APP=src.app`.
+
+4) Run the app
 
 ```
 flask run
