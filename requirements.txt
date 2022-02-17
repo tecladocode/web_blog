@@ -1,2 +1,8 @@
-Flask==0.10.1
-pymongo==3.0.3
+# Flask base package
+Flask==2.0.3
+
+# To communicate with MongoDB
+pymongo==4.0.1
+
+# So flask can read environment variables like FLASK_APP="src.app"
+python-dotenv==0.19.2
