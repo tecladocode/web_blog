@@ -1,6 +1,8 @@
 Web blog
 ========
 
+[Original course code](https://github.com/schoolofcode-me/web_blog/releases/tag/v1.0.0) | [Code updated to Flask 2.0](https://github.com/schoolofcode-me/web_blog/releases/tag/v2.0.0)
+
 This is a simple web-based blog that doesn't do much but introduces Flask, HTML, CSS, Bootstrap, Jinja2, and other concepts such as endpoints and APIs.
 
 The blog requires MongoDB to be running without authentication enabled.
