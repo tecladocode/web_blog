@@ -16,3 +16,53 @@ The available endpoints are:
 - `/blogs/new`
 - `/posts/<string:blog_id>`
 - `/posts/new/<string:blog_id>`
+
+
+## HOW TO USE THIS CODE
+
+1) Create a new virtual environment: `python -m venv venv`
+2) Activate the virtual environment:
+
+In powershell:
+
+```powershell
+.\venv\Scripts\activate
+```
+
+In bash:
+
+```bash
+source venv/Scripts/activate
+```
+
+In CMD
+
+```cmd
+venv\Scripts\activate
+```
+
+3) Set a new environment variable to allow Application Discovery ([more info](https://flask.palletsprojects.com/en/2.0.x/cli/#application-discovery)).
+
+In Powershell
+
+```powershell
+$env:FLASK_APP = "src.app"
+```
+
+In bash:
+
+```bash
+export FLASK_APP=src.app
+```
+
+In CMD
+
+```cmd
+set FLASK_APP=src.app
+```
+
+4) Run the app
+
+```
+flask run
+```
