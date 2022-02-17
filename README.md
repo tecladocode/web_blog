@@ -16,3 +16,41 @@ The available endpoints are:
 - `/blogs/new`
 - `/posts/<string:blog_id>`
 - `/posts/new/<string:blog_id>`
+
+
+## HOW TO USE THIS CODE
+
+1) Create a new virtual environment: `python -m venv .venv`
+2) Activate the virtual environment:
+
+In powershell:
+
+```powershell
+.\.venv\Scripts\activate
+```
+
+In bash
+
+```bash
+source .venv/Scripts/activate
+```
+
+In Mac OS / Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+In CMD
+
+```cmd
+.venv\Scripts\activate
+```
+
+1) Verify that the file `.flaskenv` is in the top directory and that it contains the environment variable `FLASK_APP=src.app`.
+
+2) Run the app
+
+```
+flask run
+```
